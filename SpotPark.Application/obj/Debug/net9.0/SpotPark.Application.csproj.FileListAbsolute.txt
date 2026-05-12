@@ -1,0 +1,16 @@
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\obj\Debug\net9.0\SpotPark.Application.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\obj\Debug\net9.0\SpotPark.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\obj\Debug\net9.0\SpotPark.Application.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\obj\Debug\net9.0\SpotPark.Application.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\obj\Debug\net9.0\SpotPark.Application.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\obj\Debug\net9.0\SpotPark.Application.sourcelink.json
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\bin\Debug\net9.0\SpotPark.Application.deps.json
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\bin\Debug\net9.0\SpotPark.Application.dll
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\bin\Debug\net9.0\SpotPark.Application.pdb
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\bin\Debug\net9.0\SpotPark.Domain.dll
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\bin\Debug\net9.0\SpotPark.Domain.pdb
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\obj\Debug\net9.0\SpotPark.4BFBD292.Up2Date
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\obj\Debug\net9.0\SpotPark.Application.dll
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\obj\Debug\net9.0\refint\SpotPark.Application.dll
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\obj\Debug\net9.0\SpotPark.Application.pdb
+C:\Users\ADMIN\source\repos\SpotPark\SpotPark.Application\obj\Debug\net9.0\ref\SpotPark.Application.dll
