@@ -31,4 +31,13 @@ public class ReservationRepository : Repository<Reservation>, IReservationReposi
             .OrderByDescending(r => r.CreatedAt)
             .ToListAsync();
     }
+
+    public async Task<Reservation?> GetByIdWithDetailsAsync(int id)
+    {
+        return await _context.Reservations
+            .Where(r => r.Id == id)
+            .Include(r => r.ParkingSpot)
+            .Include(r => r.Payment)
+            .FirstOrDefaultAsync();
+    }
 }

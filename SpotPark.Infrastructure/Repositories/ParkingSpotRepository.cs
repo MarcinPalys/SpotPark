@@ -15,6 +15,23 @@ public class ParkingSpotRepository : Repository<ParkingSpot>, IParkingSpotReposi
         _context = context;
     }
 
+    public async Task<IEnumerable<ParkingSpot>> GetAllWithDetailsAsync()
+    {
+        return await _context.ParkingSpots
+            .Include(p => p.Images)
+            .Include(p => p.Reviews)
+            .ToListAsync();
+    }
+
+    public async Task<ParkingSpot?> GetByIdWithDetailsAsync(int id)
+    {
+        return await _context.ParkingSpots
+            .Where(p => p.Id == id)
+            .Include(p => p.Images)
+            .Include(p => p.Reviews)
+            .FirstOrDefaultAsync();
+    }
+
     public async Task<IEnumerable<ParkingSpot>> GetByLocationAsync(double latitude, double longitude, double radiusKm)
     {
         var spots = await _context.ParkingSpots.Include(p => p.Images).ToListAsync();

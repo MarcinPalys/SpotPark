@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpotPark.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e74c1def1bb3c791df3dcbc2a808e017082e5607")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+684d75d07720315036f36349d7adb508f301694a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpotPark.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpotPark.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

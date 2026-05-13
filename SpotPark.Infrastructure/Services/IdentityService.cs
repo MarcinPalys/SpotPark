@@ -38,4 +38,21 @@ public class IdentityService : IIdentityService
 
         return (true, user.Id);
     }
+
+    public async Task<(string Id, string Email, string FirstName, string LastName, string? ProfileImageUrl, DateTime CreatedAt)?> GetUserByIdAsync(string userId)
+    {
+        var user = await _userManager.FindByIdAsync(userId);
+        if (user == null) return null;
+        return (user.Id, user.Email!, user.FirstName, user.LastName, user.ProfileImageUrl, user.CreatedAt);
+    }
+
+    public async Task<bool> UpdateUserAsync(string userId, string firstName, string lastName)
+    {
+        var user = await _userManager.FindByIdAsync(userId);
+        if (user == null) return false;
+        user.FirstName = firstName;
+        user.LastName = lastName;
+        var result = await _userManager.UpdateAsync(user);
+        return result.Succeeded;
+    }
 }

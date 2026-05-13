@@ -1,0 +1,11 @@
+namespace SpotPark.Application.DTOs.ParkingSpots;
+
+public class CreateParkingSpotRequest
+{
+    public string Title { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
+    public string Address { get; set; } = string.Empty;
+    public double Latitude { get; set; }
+    public double Longitude { get; set; }
+    public decimal PricePerHour { get; set; }
+}

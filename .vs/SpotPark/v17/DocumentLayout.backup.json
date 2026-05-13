@@ -3,6 +3,94 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2862FBC3-54BA-4BD8-8B16-2DD6E4E30D1B}|SpotPark\\SpotPark.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2862FBC3-54BA-4BD8-8B16-2DD6E4E30D1B}|SpotPark\\SpotPark.csproj|solutionrelative:spotpark\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE64D46-F9DD-4F57-B091-6498B57109DA}|SpotPark.Domain\\SpotPark.Domain.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE64D46-F9DD-4F57-B091-6498B57109DA}|SpotPark.Domain\\SpotPark.Domain.csproj|solutionrelative:spotpark.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE64D46-F9DD-4F57-B091-6498B57109DA}|SpotPark.Domain\\SpotPark.Domain.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.domain\\entities\\parkingspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE64D46-F9DD-4F57-B091-6498B57109DA}|SpotPark.Domain\\SpotPark.Domain.csproj|solutionrelative:spotpark.domain\\entities\\parkingspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|solutionrelative:spotpark.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|solutionrelative:spotpark.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.application\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|solutionrelative:spotpark.application\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.application\\interfaces\\iparkingspotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|solutionrelative:spotpark.application\\interfaces\\iparkingspotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.application\\interfaces\\iidentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|solutionrelative:spotpark.application\\interfaces\\iidentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2862FBC3-54BA-4BD8-8B16-2DD6E4E30D1B}|SpotPark\\SpotPark.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark\\controllers\\parkingspotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2862FBC3-54BA-4BD8-8B16-2DD6E4E30D1B}|SpotPark\\SpotPark.csproj|solutionrelative:spotpark\\controllers\\parkingspotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2862FBC3-54BA-4BD8-8B16-2DD6E4E30D1B}|SpotPark\\SpotPark.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2862FBC3-54BA-4BD8-8B16-2DD6E4E30D1B}|SpotPark\\SpotPark.csproj|solutionrelative:spotpark\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B1A641-214D-4B81-98BE-4A084F1D9F1D}|SpotPark.Infrastructure\\SpotPark.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.infrastructure\\repositories\\parkingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B1A641-214D-4B81-98BE-4A084F1D9F1D}|SpotPark.Infrastructure\\SpotPark.Infrastructure.csproj|solutionrelative:spotpark.infrastructure\\repositories\\parkingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B1A641-214D-4B81-98BE-4A084F1D9F1D}|SpotPark.Infrastructure\\SpotPark.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.infrastructure\\persistence\\spotparkdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B1A641-214D-4B81-98BE-4A084F1D9F1D}|SpotPark.Infrastructure\\SpotPark.Infrastructure.csproj|solutionrelative:spotpark.infrastructure\\persistence\\spotparkdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B1A641-214D-4B81-98BE-4A084F1D9F1D}|SpotPark.Infrastructure\\SpotPark.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.infrastructure\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B1A641-214D-4B81-98BE-4A084F1D9F1D}|SpotPark.Infrastructure\\SpotPark.Infrastructure.csproj|solutionrelative:spotpark.infrastructure\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE64D46-F9DD-4F57-B091-6498B57109DA}|SpotPark.Domain\\SpotPark.Domain.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE64D46-F9DD-4F57-B091-6498B57109DA}|SpotPark.Domain\\SpotPark.Domain.csproj|solutionrelative:spotpark.domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE64D46-F9DD-4F57-B091-6498B57109DA}|SpotPark.Domain\\SpotPark.Domain.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.domain\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE64D46-F9DD-4F57-B091-6498B57109DA}|SpotPark.Domain\\SpotPark.Domain.csproj|solutionrelative:spotpark.domain\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE64D46-F9DD-4F57-B091-6498B57109DA}|SpotPark.Domain\\SpotPark.Domain.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.domain\\entities\\parkingspotimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE64D46-F9DD-4F57-B091-6498B57109DA}|SpotPark.Domain\\SpotPark.Domain.csproj|solutionrelative:spotpark.domain\\entities\\parkingspotimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|solutionrelative:spotpark.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|solutionrelative:spotpark.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|solutionrelative:spotpark.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.application\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|solutionrelative:spotpark.application\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.application\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|solutionrelative:spotpark.application\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark.application\\dtos\\auth\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD67A99-8356-4336-8856-65B12EB50A97}|SpotPark.Application\\SpotPark.Application.csproj|solutionrelative:spotpark.application\\dtos\\auth\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2862FBC3-54BA-4BD8-8B16-2DD6E4E30D1B}|SpotPark\\SpotPark.csproj|c:\\users\\admin\\source\\repos\\spotpark\\spotpark\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2862FBC3-54BA-4BD8-8B16-2DD6E4E30D1B}|SpotPark\\SpotPark.csproj|solutionrelative:spotpark\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,11 +106,276 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "SpotPark.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "SpotPark.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T18:31:02.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\Interfaces\\IReservationService.cs",
+              "RelativeDocumentMoniker": "SpotPark.Application\\Interfaces\\IReservationService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\Interfaces\\IReservationService.cs",
+              "RelativeToolTip": "SpotPark.Application\\Interfaces\\IReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T18:30:56.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IParkingSpotService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\Interfaces\\IParkingSpotService.cs",
+              "RelativeDocumentMoniker": "SpotPark.Application\\Interfaces\\IParkingSpotService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\Interfaces\\IParkingSpotService.cs",
+              "RelativeToolTip": "SpotPark.Application\\Interfaces\\IParkingSpotService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T18:30:55.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "SpotPark\\Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "SpotPark\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T18:30:32.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ParkingSpotController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark\\Controllers\\ParkingSpotController.cs",
+              "RelativeDocumentMoniker": "SpotPark\\Controllers\\ParkingSpotController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark\\Controllers\\ParkingSpotController.cs",
+              "RelativeToolTip": "SpotPark\\Controllers\\ParkingSpotController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T18:30:27.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark\\Program.cs",
+              "RelativeDocumentMoniker": "SpotPark\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark\\Program.cs",
+              "RelativeToolTip": "SpotPark\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T18:30:21.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SpotParkDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Infrastructure\\Persistence\\SpotParkDbContext.cs",
+              "RelativeDocumentMoniker": "SpotPark.Infrastructure\\Persistence\\SpotParkDbContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Infrastructure\\Persistence\\SpotParkDbContext.cs",
+              "RelativeToolTip": "SpotPark.Infrastructure\\Persistence\\SpotParkDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T18:11:26.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "SpotPark.Application\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "SpotPark.Application\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:25:46.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParkingSpot.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Domain\\Entities\\ParkingSpot.cs",
+              "RelativeDocumentMoniker": "SpotPark.Domain\\Entities\\ParkingSpot.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Domain\\Entities\\ParkingSpot.cs",
+              "RelativeToolTip": "SpotPark.Domain\\Entities\\ParkingSpot.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:26:03.198Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Domain\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "SpotPark.Domain\\Entities\\Payment.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Domain\\Entities\\Payment.cs",
+              "RelativeToolTip": "SpotPark.Domain\\Entities\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T09:10:45.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Infrastructure\\Identity\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "SpotPark.Infrastructure\\Identity\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Infrastructure\\Identity\\ApplicationUser.cs",
+              "RelativeToolTip": "SpotPark.Infrastructure\\Identity\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T18:11:13.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Domain\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "SpotPark.Domain\\Entities\\Review.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Domain\\Entities\\Review.cs",
+              "RelativeToolTip": "SpotPark.Domain\\Entities\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:26:08.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Domain\\Entities\\Reservation.cs",
+              "RelativeDocumentMoniker": "SpotPark.Domain\\Entities\\Reservation.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Domain\\Entities\\Reservation.cs",
+              "RelativeToolTip": "SpotPark.Domain\\Entities\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:26:07.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "SpotPark.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "SpotPark.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:25:58.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IIdentityService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\Interfaces\\IIdentityService.cs",
+              "RelativeDocumentMoniker": "SpotPark.Application\\Interfaces\\IIdentityService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\Interfaces\\IIdentityService.cs",
+              "RelativeToolTip": "SpotPark.Application\\Interfaces\\IIdentityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:25:42.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "SpotPark.Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "SpotPark.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:25:51.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ParkingSpotRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Infrastructure\\Repositories\\ParkingSpotRepository.cs",
+              "RelativeDocumentMoniker": "SpotPark.Infrastructure\\Repositories\\ParkingSpotRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Infrastructure\\Repositories\\ParkingSpotRepository.cs",
+              "RelativeToolTip": "SpotPark.Infrastructure\\Repositories\\ParkingSpotRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T09:10:54.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "SpotPark.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "SpotPark.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:25:41.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\DTOs\\Auth\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "SpotPark.Application\\DTOs\\Auth\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\DTOs\\Auth\\RegisterRequest.cs",
+              "RelativeToolTip": "SpotPark.Application\\DTOs\\Auth\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:25:38.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "SpotPark.Application\\DTOs\\Auth\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeToolTip": "SpotPark.Application\\DTOs\\Auth\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:25:37.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ParkingSpotImage.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Domain\\Entities\\ParkingSpotImage.cs",
+              "RelativeDocumentMoniker": "SpotPark.Domain\\Entities\\ParkingSpotImage.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Domain\\Entities\\ParkingSpotImage.cs",
+              "RelativeToolTip": "SpotPark.Domain\\Entities\\ParkingSpotImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T09:10:43.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\DTOs\\Auth\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "SpotPark.Application\\DTOs\\Auth\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark.Application\\DTOs\\Auth\\AuthResponse.cs",
+              "RelativeToolTip": "SpotPark.Application\\DTOs\\Auth\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:25:36.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark\\appsettings.Development.json",
               "RelativeDocumentMoniker": "SpotPark\\appsettings.Development.json",
@@ -34,16 +387,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 22,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "SpotPark\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\SpotPark\\SpotPark\\Controllers\\AuthController.cs",
               "RelativeToolTip": "SpotPark\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T08:07:04.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T08:07:04.642Z"
             }
           ]
         },

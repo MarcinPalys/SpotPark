@@ -6,4 +6,5 @@ public interface IReservationRepository : IRepository<Reservation>
 {
     Task<IEnumerable<Reservation>> GetByDriverAsync(string driverId);
     Task<IEnumerable<Reservation>> GetByParkingSpotAsync(int parkingSpotId);
+    Task<Reservation?> GetByIdWithDetailsAsync(int id);
 }
