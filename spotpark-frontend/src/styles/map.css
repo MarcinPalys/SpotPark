@@ -1,0 +1,70 @@
+/* Shared map + address search styles (home page, add-spot form) */
+/* Address search */
+.address-search { position: relative; z-index: 10; }
+.address-search-box {
+  display: flex; align-items: center; gap: 0.4rem; background: var(--bg);
+  border: 1.5px solid transparent; border-radius: 14px; padding: 0.35rem 0.35rem 0.35rem 0.85rem;
+  transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
+}
+.address-search-box:focus-within { background: var(--surface); border-color: var(--primary); box-shadow: 0 0 0 4px var(--primary-ring); }
+.address-search-icon { color: var(--text-muted); }
+.address-search-box input {
+  flex: 1; min-width: 0; border: none; outline: none; font: inherit; font-size: 0.95rem;
+  padding: 0.6rem 0; background: transparent; color: var(--text);
+}
+.address-search-box input::placeholder { color: #94a3b8; }
+.address-search-box .btn-primary { width: 2.75rem; height: 2.75rem; padding: 0; border-radius: 11px; }
+.address-search-clear {
+  display: inline-flex; border: none; background: none; color: var(--text-muted);
+  cursor: pointer; padding: 0.35rem; border-radius: 6px;
+}
+.address-search-clear:hover { color: var(--text); background: #e5e7eb; }
+.address-suggestions {
+  position: absolute; top: calc(100% + 8px); left: 0; right: 0; list-style: none; padding: 0.35rem;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+  box-shadow: var(--shadow-lg); max-height: 320px; overflow-y: auto;
+}
+.address-suggestions li { display: flex; align-items: flex-start; gap: 0.65rem; padding: 0.6rem 0.7rem; border-radius: 10px; cursor: pointer; }
+.address-suggestions li.active { background: var(--primary-soft); }
+.address-suggestions li > div { display: flex; flex-direction: column; min-width: 0; }
+.suggestion-icon { color: var(--text-muted); margin-top: 0.15rem; }
+.address-suggestions li.active .suggestion-icon { color: var(--primary); }
+.address-suggestions strong { font-size: 0.9rem; font-weight: 600; }
+.address-suggestions span { font-size: 0.8rem; color: var(--text-muted); }
+.address-search-error { color: var(--danger); font-size: 0.8rem; margin-top: 0.5rem; }
+
+/* Softer, pastel-like basemap */
+.krakow-map .leaflet-tile-pane, .location-picker .leaflet-tile-pane { filter: saturate(0.7) contrast(0.92) brightness(1.04); }
+
+/* Markers */
+.leaflet-div-reset { background: none; border: none; }
+/* Price pin: green label + small tail + dot marking the exact point */
+.price-marker {
+  position: absolute; left: 0; bottom: 0; transform: translate(-50%, 0); display: flex; flex-direction: column;
+  align-items: center; cursor: pointer; font-family: 'Inter', system-ui, sans-serif; transition: transform 0.15s;
+}
+.price-marker-label {
+  white-space: nowrap; background: var(--primary); color: #fff; font-weight: 700; font-size: 0.85rem;
+  padding: 0.3rem 0.6rem; border-radius: 8px; border: 2px solid #fff;
+  box-shadow: 0 6px 14px rgba(15, 39, 71, 0.28); transition: background 0.15s;
+}
+.price-marker-tail { width: 2px; height: 8px; background: var(--primary); }
+.price-marker-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--primary); border: 2.5px solid #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.25); margin-top: -1px; transform: translateY(50%); }
+.price-marker:hover, .price-marker-active { transform: translate(-50%, 0) scale(1.12); z-index: 10; }
+.price-marker:hover .price-marker-label, .price-marker-active .price-marker-label { background: var(--navy); }
+.price-marker-active .price-marker-tail, .price-marker-active .price-marker-dot { background: var(--navy); }
+.price-marker-off .price-marker-label, .price-marker-off .price-marker-tail, .price-marker-off .price-marker-dot { background: #94a3b8; }
+.selected-pin {
+  position: absolute; width: 30px; height: 30px; transform: translate(-50%, -100%) rotate(-45deg);
+  margin-top: -4px; background: var(--danger); border: 3px solid #fff; border-radius: 50% 50% 50% 0;
+  box-shadow: 0 6px 14px rgba(15, 23, 42, 0.35);
+}
+.selected-pin::after {
+  content: ''; position: absolute; inset: 0; margin: auto; width: 9px; height: 9px; background: #fff; border-radius: 50%;
+}
+.map-info { font-size: 0.85rem; min-width: 170px; }
+.map-info strong { display: block; font-size: 0.95rem; margin-bottom: 0.1rem; }
+.map-info p { margin: 0 0 0.3rem !important; color: var(--text-muted); }
+.map-info .map-info-price { color: var(--text); font-weight: 700; }
+.map-info a { color: var(--primary); font-weight: 600; text-decoration: none; }
+

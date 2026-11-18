@@ -1,13 +1,15 @@
 import { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { Link, useParams, useNavigate, useLocation, useSearchParams } from 'react-router-dom';
 import { parkingSpotService } from '../services/parkingSpotService';
 import { reservationService } from '../services/reservationService';
 import { useAuth } from '../context/AuthContext';
+import Icon from '../components/Icon';
 
 export default function ParkingSpotDetailPage() {
   const { id } = useParams();
   const { isAuthenticated } = useAuth();
   const navigate = useNavigate();
+  const justCreated = useLocation().state?.justCreated;
 
   const [spot, setSpot] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -18,7 +20,13 @@ export default function ParkingSpotDetailPage() {
   const defaultStart = new Date(now.getTime() + 3600000).toISOString().slice(0, 16);
   const defaultEnd = new Date(now.getTime() + 7200000).toISOString().slice(0, 16);
 
-  const [reservation, setReservation] = useState({ startDate: defaultStart, endDate: defaultEnd });
+  // The home-page search passes ?start=YYYY-MM-DDTHH:mm&end=… to pre-fill the form.
+  const [searchParams] = useSearchParams();
+  const isDateTime = (v) => /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(v ?? '');
+  const [reservation, setReservation] = useState(() => ({
+    startDate: isDateTime(searchParams.get('start')) ? searchParams.get('start') : defaultStart,
+    endDate: isDateTime(searchParams.get('end')) ? searchParams.get('end') : defaultEnd,
+  }));
   const [resError, setResError] = useState('');
   const [resLoading, setResLoading] = useState(false);
   const [resSuccess, setResSuccess] = useState(false);
@@ -63,6 +71,16 @@ export default function ParkingSpotDetailPage() {
     <div className="container page">
       <button className="btn btn-ghost btn-sm mb" onClick={() => navigate(-1)}>← Back</button>
 
+      {justCreated && (
+        <div className="alert alert-success">
+          <strong>Miejsce zostało wystawione.</strong>{' '}
+          {spot.isLocal
+            ? 'Zapisaliśmy je w tej przeglądarce. Widać je już na mapie na stronie głównej.'
+            : 'Kierowcy zobaczą je teraz na mapie.'}{' '}
+          <Link to="/">Przejdź do mapy</Link>
+        </div>
+      )}
+
       <div className="detail-layout">
         <div className="detail-main">
           <div className="detail-header-row">
@@ -72,7 +90,15 @@ export default function ParkingSpotDetailPage() {
             </span>
           </div>
 
-          <p className="detail-address">📍 {spot.address}</p>
+          <p className="detail-address"><Icon name="pin" size={16} /> {spot.address}</p>
+
+          {spot.imageUrls?.length > 0 && (
+            <div className={`detail-photos detail-photos-${Math.min(spot.imageUrls.length, 3)}`}>
+              {spot.imageUrls.slice(0, 3).map((url, i) => (
+                <img key={url.slice(-32) + i} src={url} alt={`${spot.title} – zdjęcie ${i + 1}`} />
+              ))}
+            </div>
+          )}
 
           {spot.averageRating != null && (
             <p className="detail-rating">
@@ -85,7 +111,7 @@ export default function ParkingSpotDetailPage() {
 
           <div className="detail-section">
             <h2>Description</h2>
-            <p>{spot.description || 'No description provided.'}</p>
+            <p style={{ whiteSpace: 'pre-line' }}>{spot.description || 'No description provided.'}</p>
           </div>
 
           <div className="detail-section">
@@ -99,7 +125,12 @@ export default function ParkingSpotDetailPage() {
             <div className="card-body">
               <h2 className="sidebar-title">Reserve this spot</h2>
 
-              {resSuccess ? (
+              {spot.isLocal ? (
+                <p className="list-item-sub">
+                  To ogłoszenie jest zapisane tylko w tej przeglądarce, więc nie można go jeszcze
+                  zarezerwować. Rezerwacje będą możliwe po opublikowaniu go na serwerze.
+                </p>
+              ) : resSuccess ? (
                 <div className="alert alert-success">
                   Reservation confirmed! View it in your <a href="/dashboard">Dashboard</a>.
                 </div>
